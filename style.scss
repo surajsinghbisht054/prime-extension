@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@use 'primeflex/primeflex';
+@use "primeicons/primeicons";
+@import "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap";
 
 :root {
     /* Set sans-serif & mono fonts */
@@ -23,7 +25,7 @@
     --text-light: var(--text-color-secondary);
     --border: var(--text-color-secondary);
     --accent: var(--primary-color);
-    --accent-light: var(--primary-300);
+    --accent-light: var(--primary-200);
     --code: var(--pink-500);
     --preformatted: var(--gray-600);
     --marked: var(--yellow-500);
@@ -32,11 +34,12 @@
 
 /* Dark theme */
 @media (color-scheme: dark) {
+
     :root {
         --code: var(--pink-600);
         --preformatted: var(--gray-500);
         --disabled: var(--gray-200);
-    
+
     }
 
     img,
@@ -127,6 +130,7 @@ nav a:hover {
 nav ul {
     list-style: none;
 }
+
 nav a.current:hover {
     text-decoration: none;
 }
@@ -241,7 +245,7 @@ input[type="checkbox"]:focus,
 input[type="checkbox"]:enabled:hover,
 input[type="radio"]:focus,
 input[type="radio"]:enabled:hover {
-    filter: brightness(1.4);
+    filter: brightness(1.2);
     cursor: pointer;
 }
 
@@ -501,3 +505,17 @@ pre code {
     margin: 0;
     padding: 0;
 }
+
+.secondary {
+    background: var(--surface-50);
+    color: var(--surface-700);
+}
+.danger {
+    background: var(--red-50);
+    color: var(--red-700);
+}
+.success {
+    background: var(--green-50);
+    color: var(--green-700);
+}
+
