@@ -1,5 +1,3 @@
 @import '~primeflex/primeflex.scss';
-
-body {
-  font-family: Arial, sans-serif;
-}
+@import '~primeflex/themes/primeone-light.scss';
+@import './extension.scss';
