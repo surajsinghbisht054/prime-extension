@@ -1,0 +1,29 @@
+{
+  "name": "primeflex-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "surajsinghbisht054@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.5.31",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "sass": "^1.79.5",
+    "sass-loader": "^16.0.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "htmx.org": "^1.9.12",
+    "jquery": "^3.7.1",
+    "primeflex": "^3.3.1"
+  }
+}
