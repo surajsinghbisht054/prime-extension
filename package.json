@@ -1,7 +1,7 @@
 {
   "name": "prime-extension",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author":"surajsinghbisht054@gmail.com",
   "type": "module",
   "scripts": {
