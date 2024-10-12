@@ -1,7 +1,8 @@
 {
   "name": "prime-extension",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.1",
+  "author":"surajsinghbisht054@gmail.com",
   "type": "module",
   "scripts": {
     "dev": "vite",
