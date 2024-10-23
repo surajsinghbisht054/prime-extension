@@ -18,14 +18,6 @@ Using jsDelivr CDN
 <script src="https://cdn.jsdelivr.net/npm/prime-extension@latest/dist/main.js"></script>
 ```
 
-Using unpkg CDN
-```
-<link rel="stylesheet" href="https://unpkg.com/prime-extension@latest/dist/main.css">
-<link rel="stylesheet" href="https://unpkg.com/prime-extension@latest/dist/themes/primeone-light.css">
-<script src="https://unpkg.com/prime-extension@latest/dist/main.js"></script>
-```
-
-
 
 ## Why?
 As a web developer working with **Django** and inspired by the minimalistic approach of **HTMX**, 
