@@ -69,6 +69,7 @@ body {
     overflow-x: hidden;
     word-break: break-word;
     overflow-wrap: break-word;
+    scroll-behavior: smooth;
 }
 
 /* Make the header bg full width, but the content inline with body */
